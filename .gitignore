@@ -1,0 +1,17 @@
+pgdata/
+postgres.log
+*.log
+
+# Sauvegardes
+backups/
+*.dump
+*.sql.gz
+
+# R
+.Rhistory
+.RData
+.Rproj.user/
+
+# Conda
+__pycache__/
+*.pyc

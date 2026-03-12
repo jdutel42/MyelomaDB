@@ -1,0 +1,27 @@
+name: biobanque
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # Python (utilitaires système)
+  - python=3.11
+
+  # PostgreSQL client
+  - postgresql=16
+
+  # R et packages CRAN via conda-forge
+  - r-base=4.3
+  - r-shiny
+  - r-shinydashboard
+  - r-shinywidgets
+  - r-dt
+  - r-dbi
+  - r-rpostgres
+  - r-ggplot2
+  - r-dplyr
+  - r-plotly
+  - r-lubridate
+  - r-stringr
+
+  # Dépendances système pour RPostgres
+  - libpq
